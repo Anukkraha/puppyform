@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title>
+            Puppyform
+        </title>
+        <link rel="stylesheet" href="puppyform.css">
+    </head>
+    <body>
+        <div class="form-container">
+            <div class="img-container">
+                <div class="brand-name">
+                    <img src="pawlogo.png">
+                    <h2>Puppasure</h2>
+                </div>
+                <div class="puppyimg">
+                    <img src="puppyimage.png" id="puppy">
+                </div>
+            </div>
+            <div class="content">
+                <h2>Yay,puppies!Ensure your pup gets the best care!</h2>
+                <div class="form">
+                    <div class="row">
+                        <div class="block">
+                        <label for="name">Name</label><br>
+                        <input type="text" id=name placeholder="Pet's Name">
+                        </div>
+                        <div class="block img">
+                        <img src="upload.png" width="30px" height="30px">
+                        <label for="upload">Upload a Photo</label>
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="block">
+                        <label for="breed">Breed</label><br>
+                        <input type="text" id=breed placeholder="Pet's Breed">
+                    </div>
+                    <div class="block">
+                        <label for="dob">Birthday</label><br>
+                        <input type="date" id=dob>
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="block">
+                        <label for="gender">Gender</label><br>
+                        <div class="inline">
+                            <div class="element">
+                        <input type="radio" name="gender" id="female"> <label for="female">Female</label>
+                    </div>
+                    <div class="element">
+                        <input type="radio" name="gender" id="male"> <label for="male">Male</label>
+                    </div>
+                </div>
+                </div>
+                <div class="block">
+                        <label for="dog">Spayed or Neutered</label><br>
+                        <div class="inline">
+                            <div class="element">
+                                <input type="radio" name="type" id="spayed"> <label for="spayed">Spayed</label>        
+                            </div>
+                            <div class="element">
+                                <input type ="radio" name="type" id="neutered"> <label for="neutered">Neutered</label>
+                            </div>
+                        </div>
+                </div>
+            </div>
+                <div class="row">
+                    <div class="block">
+                    <label for="wt">Weight</label><br>
+                    <div class="inline">
+                        <div class="element-wt">
+                            <input type="radio" name="wt" id="25"> <label for="25">0-25lbs</label>
+                        </div>
+                        <div class="element-wt">
+                            <input type="radio" name="wt" id="50"> <label for="50">25-50lbs</label>
+                        </div>
+                        <div class="element-wt">
+                            <input type="radio" name="wt" id="100"> <label for="100">50-100lbs</label>
+                        </div>
+                        <div class="element-wt">
+                            <input type="radio" name="wt" id="100+"> <label for="100+">100+lbs</label>
+                        </div>
+                </div>
+            </div>
+        </div>
+                </div>
+                <div class="button">
+                <input class="back" type="submit" value="Back">
+                <input class="nxt" type="submit" value="Next">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
